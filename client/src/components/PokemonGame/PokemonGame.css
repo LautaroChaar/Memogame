@@ -1,0 +1,13 @@
+.gameArea {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #f7c184;
+    width: 90%;
+    max-width: 398px;
+    min-height: 106px;
+    margin: 16px 0 16px 0;
+    backdrop-filter: blur(4px);
+    perspective: 200px; 
+}

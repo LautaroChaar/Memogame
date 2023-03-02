@@ -1,0 +1,27 @@
+.formLabel, .formInput {
+    margin: 12px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 1rem;
+    color: #242424;
+}
+
+.formInput {
+    text-align: center;
+    border: transparent;
+    background-color: transparent;
+    border-bottom: 2px solid #BA5F62;
+    outline: none;
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .formLabel, .formInput {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .formLabel, .formInput {
+        font-size: 1.5rem;
+    }
+}
+

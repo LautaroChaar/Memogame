@@ -1,0 +1,30 @@
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #e6d839;
+}
+
+.linkPages {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    font-family: ubuntu, sans-serif;
+}
+
+.linkPages:hover {
+    color: #f5f5dc;
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .linkPages {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .linkPages {
+        font-size: 1rem;
+    }
+}

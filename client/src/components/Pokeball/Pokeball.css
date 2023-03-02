@@ -1,0 +1,68 @@
+.cardGame {
+    width: 44px;
+    height: 44px;
+    position: relative;
+    margin: 6px;
+    transform-style: preserve-3d;
+    box-shadow: #000000cc 0px 5px 15px;
+    border: none;
+    border-radius: 110px;
+    transition: .3s;
+    cursor: pointer; 
+}
+.pokeballImg {
+    width: 44px;
+    height: 44px;
+    content:url(/public/pokeball.png);
+}
+.frontCard, .backCard {
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.frontCard {
+    height: 100px;
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+.backCard {
+    height: 100px;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(-180deg);
+    border-radius: 110px;
+    transition: .3s; 
+}
+.pokeImg {
+    height: 80%;
+    width: 80%; 
+}
+.rotate {
+    transform: rotateY(-180deg); 
+}
+
+@media screen and (min-width: 600px) and (max-width:899px) {
+    .cardGame {
+        width: 56px;
+        height: 56px;
+    }
+    .pokeballImg {
+        width: 56px;
+        height: 56px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .cardGame {
+        width: 65px;
+        height: 65px;
+        margin: 8px;
+    }
+    .pokeballImg {
+        width: 65px;
+        height: 65px;
+    }
+}

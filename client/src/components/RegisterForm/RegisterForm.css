@@ -1,0 +1,29 @@
+.registerForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkRegisterSection {
+    text-decoration: none;
+    font-family: Ubuntu, sans-serif;
+    color: #24242496;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.linkRegisterSection:hover {
+    text-decoration: underline;
+    color: #242424;
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .linkRegisterSection {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .linkRegisterSection {
+        font-size: 1.8rem;
+    }
+}
